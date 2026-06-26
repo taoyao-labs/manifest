@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Device -->
- <project path="device/xiaomi/taoyao" name="taoyao-labs/device_xiaomi_taoyao" remote="github-non-los" revision="bka" />
- <project path="device/xiaomi/taoyao-camera" name="taoyao-labs/device_xiaomi_taoyao-camera" remote="github-non-los" revision="bka" />
- <!-- Kernel -->
- <project path="kernel/xiaomi/taoyao" name="taoyao-labs/kernel_xiaomi_taoyao" remote="github-non-los" revision="bka" />
- <project path="device/xiaomi/taoyao-kernel" name="taoyao-labs/device_xiaomi_taoyao-kernel" remote="github-non-los" revision="bka" />
- <!-- Hardware -->
- <project path="hardware/xiaomi" name="taoyao-labs/hardware_xiaomi" remote="github-non-los" revision="lineage-23.0"/>
- <project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" />
- <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github-non-los" revision="lineage-22.2" />
- <!-- Vendor -->
- <project path="vendor/xiaomi/taoyao" name="richardqcarvalho/vendor_xiaomi_taoyao" remote="github-non-los" revision="bka" />
- <project path="vendor/xiaomi/taoyao-camera" name="richardqcarvalho/vendor_xiaomi_taoyao-camera" remote="github-non-los" revision="bka" />
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="evo-devices" revision="bka" />
+  <project path="device/xiaomi/taoyao" name="taoyao-labs/device_xiaomi_taoyao" remote="github-non-los" revision="bka-common" />
+  <project path="device/xiaomi/taoyao-camera" name="taoyao-labs/device_xiaomi_taoyao-camera" remote="github-non-los" revision="bka" />
+  <project path="kernel/xiaomi/taoyao" name="taoyao-labs/kernel_xiaomi_taoyao" remote="github-non-los" revision="bka" />
+  <project path="device/xiaomi/taoyao-kernel" name="taoyao-labs/device_xiaomi_taoyao-kernel" remote="github-non-los" revision="bka" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo-devices" revision="bka" />
+  <project path="hardware/dolby" name="hardware_dolby" remote="evo-devices" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github-non-los" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="evo-devices" revision="bka" />
+  <project path="vendor/xiaomi/taoyao" name="taoyao-labs/vendor_xiaomi_taoyao" remote="github-non-los" revision="bka-common" />
+  <project path="vendor/xiaomi/taoyao-camera" name="richardqcarvalho/vendor_xiaomi_taoyao-camera" remote="github-non-los" revision="bka" />
 </manifest>
